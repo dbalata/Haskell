@@ -1,0 +1,15 @@
+getTransition s =
+  if transition s /= 'x' then transition s
+  else
+    getTransition $ (head s) : rotate (tail s)
+
+rotate s = (drop 3 s) ++ (take 3 s)
+
+transition "00000" = '0'
+transition "00001" = '2'
+.
+.
+.
+transition _ = 'x'
+
+

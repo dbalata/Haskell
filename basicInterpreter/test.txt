@@ -1,0 +1,7 @@
+(define test(
+(100 print "Start" )
+(110 for i = 1 to 10 )
+(120 print i )
+(130 next i )
+(140 print "Done" )
+(150 end ))

@@ -1,0 +1,6 @@
+(define test(
+(100 print 1)
+(110 gosub 130)
+(120 end)
+(130 print 3)
+(140 return)
